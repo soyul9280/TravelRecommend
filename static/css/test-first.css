@@ -1,0 +1,49 @@
+body {
+  background-color: #ccecf6;
+  margin: 0;
+  padding: 0;
+}
+
+.user-info-box {
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Minimum height of the viewport */
+  background-image: url("https://i.pinimg.com/564x/81/03/77/81037742d756addf44bc01782bd808ce.jpg"); /* Background image */
+  background-size: 30%; /* Reduce the image size */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-position: center; /* Center the background image */
+  padding-left: 15%; /* Add padding to shift content left */
+  padding-right: 19%; /* Add padding to shift content right */
+  padding-bottom: 5%;
+}
+
+.user-info {
+  width: 50vh;
+  padding: 10px; /* Adds padding inside the box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-box {
+  display: flex;
+  justify-content: center; /* Ensure contents are centered */
+  margin-bottom: 10px; /* Space between name box and the next content */
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.name-button {
+  background-color: #c4ab99;
+  color: black;
+}
+
+.bus-icon {
+  position: absolute;
+  right: 0; /* Align image to the right */
+  bottom: 0; /* Align image to the bottom */
+}

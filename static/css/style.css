@@ -1,0 +1,68 @@
+body {
+  background-image: url("/static/images/result_bg.jpg"); /* Cover the entire page */
+  background-size: cover;
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed; /* Keep the background fixed during scrolling *          /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0;
+}
+
+.question-area {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.question-box {
+  border: 1.5px solid black;
+  height: 20vh;
+  width: 20vh;
+  margin: 1.5em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.question-box.selected,
+.question-box:hover {
+  background-color: rgb(81, 145, 206); /* Ensure this color shows up */
+}
+
+.result-bt {
+  margin-top: 3em;
+  float: right;
+}
+
+.bus-icon {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  transition: transform 1s ease-in-out;
+}
+
+.move-right {
+  animation: moveBus 2s forwards;
+}
+
+@keyframes moveBus {
+  0% {
+    transform: translateX(0); /* Start at the original position */
+  }
+  25% {
+    transform: translateX(-20%); /* Move further to the left */
+  }
+  50% {
+    transform: translateX(0); /* Move back to the original position */
+  }
+  100% {
+    transform: translateX(100%); /* Move to the right off the screen */
+  }
+}
