@@ -16,7 +16,8 @@ Mbti Test처럼 여행 관련 선호 목록 선택으로 제주의 여행지를 
 |:-------:|:------:|
 |<img width="100%" src="https://github.com/user-attachments/assets/7b82123f-989d-4f52-8288-5af8ecc4b5fe">| <img width="100%" src="https://github.com/user-attachments/assets/180b32bc-4ec3-45ca-a3b0-cb1cd8baf81c">|
 | 선호 목록 확인 | 결과 화면 |
-|:-------:|:------:|
 |<img width="100%" src="https://github.com/user-attachments/assets/b8dd98e0-8c2c-4868-b835-e4bd0823d8e2">| <img width="100%" src="https://github.com/user-attachments/assets/e32450b4-259b-4bba-8a03-92dc1f0a10b8">|
-|:-----------------:|
+
+| 수상 |
+|:---------:|
 |<img width="100%" src="https://github.com/user-attachments/assets/34c99ec6-5200-42fc-afcd-ccffec1be7cf">|
